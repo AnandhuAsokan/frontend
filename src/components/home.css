@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+}
+#card-container {
+    padding: 20px;
+  }
+  
+  #history-img img {
+    border-radius: 8px;
+  }
+  
+  #history-title, #history-date {
+    padding: 15px;
+  }
+  

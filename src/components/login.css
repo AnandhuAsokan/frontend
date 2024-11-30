@@ -1,0 +1,102 @@
+html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(
+      144deg,
+      rgba(1, 20, 124, 1) 17%,
+      rgba(0, 0, 253, 1) 44%,
+      rgba(6, 178, 255, 1) 78%
+    );
+  }
+  
+  .login-box {
+    background: rgb(0, 14, 71);
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-radius: 8px;
+    box-shadow: 10px 10px 30px 30px rgba(0, 0, 0, 0.4);
+    
+    max-width: 700px;
+    width: 700px;
+    padding: 60px;
+  }
+  
+  .form-control {
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    border-radius: 0;
+    background-color: transparent;
+    width: 100%;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+    color: #ffffff;
+  }
+  
+  #button {
+    width: 20%;
+    padding: 10px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border-color: #ffffff;
+    border-width: 1px;
+    margin-top: 3%;
+    width: 50%;
+    transition: transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+  }
+  
+  .password,
+  #text {
+    display: block;
+    margin-top: 10px;
+    color: #727374;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: smaller;
+    width: 200px;
+    
+  }
+  
+  .password:hover {
+    text-decoration: underline;
+    color: #ffffff;
+  }
+  
+  #button:hover {
+    padding: 10px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border-radius: 4px;
+    box-shadow: inset;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+  }
+  
+  h2 {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  #forgot-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #forget {
+    display: flex;
+    
+  }
